@@ -18,7 +18,7 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 public class botMain extends ListenerAdapter {
 	static JDA jda;
 	public static void main(String[] args) throws LoginException {
-		jda = JDABuilder.createDefault("OTEwNDA2MjA1Nzk5ODA5MDU0.YZSX2Q.jVSqlP7L27nWRdWLcXzxqeu2t6w").build();
+		jda = JDABuilder.createDefault(botData.token).build();
 		jda.getPresence().setStatus(OnlineStatus.ONLINE);
 		jda.addEventListener(new botMain());
 	}
