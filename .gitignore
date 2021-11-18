@@ -11,4 +11,5 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 /.metadata/
 Servers
-SHBot/src/main/java/botData/
+**/botData/
+/bin
